@@ -88,7 +88,15 @@ module.exports = function(webpackEnv) {
       },
       {
         loader: require.resolve("css-loader"),
-        options: cssOptions
+        options: {
+          ...cssOptions
+          /** To implement CSS Loader */
+          /*
+          modules: {
+            localIdentName: "[name]_[local]_[hash:base64:5]"
+          }
+          */
+        }
       },
       {
         // Options for PostCSS as we reference these options twice

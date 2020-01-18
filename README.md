@@ -66,3 +66,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### `npm i styled-components`
+
+Added to make use of CCS in JS
+
+### `npm i react-test-renderer enzyme react-addons-test-utils -D`
+
+To setup a test environment for automation testing

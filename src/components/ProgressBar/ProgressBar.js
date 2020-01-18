@@ -12,7 +12,7 @@ const getColor = percent => {
   return "red";
 };
 
-const getProgressWidth = (percent, width) => {
+export const getProgressWidth = (percent, width) => {
   return parseInt((percent / 100) * width, 10);
 };
 
