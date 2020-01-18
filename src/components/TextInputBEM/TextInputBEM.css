@@ -1,0 +1,26 @@
+/*
+    BEM: BLOCK ELEMENT MODIFIER
+*/
+/*
+    Defining styles for BLOCK
+*/
+.textInput {
+  margin-bottom: 16px;
+}
+
+/*
+    Defining styles for an ELEMENT under a BLOCK.
+    Below is the style for an error element.
+*/
+
+.textInput__error {
+  color: red;
+}
+
+/*
+    Defining styles for a MODIFIER under an  element.
+    Below style represents the state of error for the input element.
+*/
+.textInput__input--error {
+  border: 1px solid red;
+}
