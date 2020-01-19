@@ -4,11 +4,11 @@ import { shallow } from "enzyme";
 
 describe("ProgressBar", () => {
   test("getProgressWidth", () => {
-    const percent = 50;
+    const percent = 100;
     const width = 500;
 
     const result = getProgressWidth(percent, width);
 
-    expect(result).toEqual(250);
+    expect(result).toEqual(500);
   });
 });

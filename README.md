@@ -71,6 +71,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 Added to make use of CCS in JS
 
-### `npm i react-test-renderer enzyme react-addons-test-utils -D`
+### `npm i react-test-renderer enzyme enzyme-adapter-react-16 react-addons-test-utils -D`
 
 To setup a test environment for automation testing
