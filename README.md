@@ -12,10 +12,12 @@ npm install react-libz
 
 [Component documentation](http://zissan.github.io/react-libz/)
 
-### `npm i styled-components`
-
-Added to make use of CCS in JS
-
-### `npm i react-test-renderer enzyme enzyme-adapter-react-16 react-addons-test-utils -D`
+```
+npm i styled-components
+npm i react-test-renderer enzyme enzyme-adapter-react-16 react-addons-test-utils -D
+npm i -D gh-pa
+npm i -D babel-cli cross-env rimraf cpx
+npm install --save-dev @babel/preset-env
+```
 
 To setup a test environment for automation testing
